@@ -1,0 +1,82 @@
+.my-caption{
+    width: 700px;
+    left: 130px;
+    bottom: 100px;
+    text-align: left;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.Modest-Social-div{
+    width: 60px;
+    height: 60px;
+    background-color: lightgray;
+}
+.number-box{
+    width: 60px;
+    height: 60px;
+    background-color: #23B7A4;
+}
+
+.lovely-section{
+   background-color: #3A454D;
+}
+.icon-color{
+    color: #23B7A4;
+    font-size: 50px;
+}
+.feature-section{
+    background-color: #3A454D;
+}
+.bottombar{
+    background-color: #3A454D;
+}
+.left-bold-border{
+    height: auto;
+    border-left: 8px solid lightgray;
+}
+.carousel-view-button .btn{
+    border: 2px solid rgb(247, 242, 242);
+}
+
+* {box-sizing: border-box;}
+
+.hello {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+* {box-sizing: border-box;}
+
+.moni{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.ram{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.moni:hover .overlay {
+  opacity:8;
+}
